@@ -17,12 +17,11 @@
             i.fas.fa-angle-right
 
       .d-none.d-lg-block.col-lg-5.px-0.banner-principal__img
-        .contenedor-imagenes
-    
+        .contenedor-imagenes    
           img(:src="globalData.imagenBannerPrincipal")            
-          .flotante_1: img(src="@/assets/curso/portada/flotante1.png")
+          //.flotante_1: img(src="@/assets/curso/portada/flotante1.png")
           .flotante_2: img(src="@/assets/curso/portada/flotante2.png")
-
+          .flotante_3: img(src="@/assets/curso/portada/flotante3.png")
                                   
           
 </template>
@@ -111,27 +110,36 @@ export default {
 
 .flotante
   &_1
-    animation: float2 2s ease-in-out infinite
+    animation: float1 6s ease-in-out infinite
     position: absolute
     top: 0%
     left: 0%
     width: 100%
 .flotante
   &_2
-    animation: float2 4s ease-in-out infinite
+    animation: float1 14s ease-in-out infinite
     position: absolute
     top: 0%
     left: 0%
     width: 100%
+    opacity: 1
+.flotante
+  &_3
+    animation: float1 7s ease-in-out infinite
+    position: absolute
+    top: 0%
+    left: 0%
+    width: 100%
+    opacity: 1
 
 
-
-
-@keyframes float2
+@keyframes float1
   0%
     opacity: 0
+
   50%
     opacity: 1
+
   100%
     opacity: 0
 </style>

@@ -1,0 +1,133 @@
+.bg-color-intro 
+  background-color: #F2EFE8 !important
+
+.color-p-intro
+  background-color: white !important
+
+.img-a 
+  display: block
+  margin: auto
+
+.img-t
+  width: auto
+  height: auto  
+
+.bg-img-1
+  position: relative
+  .row, figure, p, h3,
+    position: relative
+  &::before
+    content: ""
+    position: absolute
+    margin-left: -48px
+    width: calc( 100% + 96px )
+    height: 100%       
+    background-image: url(../assets/curso/temas/img2.jpg)
+    background-size: 100% auto  
+    background-repeat: no-repeat
+    background-position: top  
+
+.color-p-1
+  background-color: white 
+  border-radius: 10px   
+
+.linea-tiempo-a__icon__container span
+  color: white !important
+.linea-tiempo-a::before
+  background: #EDC596
+.linea-tiempo-a__row::after      
+  background: #EDC596
+
+.row-top
+  margin-top: -13em  
+
+.bg-card-alert
+  background: rgb(248,226,226)
+  background: linear-gradient(190deg, rgba(248,226,226,1) 0%, rgba(255,205,205,1) 100%)  
+        
+.avatar-w
+  width: 90px !important  
+
+.hr
+  border: 1px solid #D44F4A    
+
+.h-100
+  height: 100%!important  
+
+.divpadre  
+  .div01
+    display: flex
+    width: 80%
+    background-color: #E8E8E8 
+    color: #636363
+    border-radius: 10px 0px 0px 10px    
+    .p
+      border-left: 2px solid #636363
+      padding-left: 1em
+      font-size: 15px
+  .div02
+    display: flex
+    width: 20%
+    background-color: #636363
+    border-radius: 0px 10px 10px 0px
+
+.divpadre:hover
+  .div01
+    display: flex
+    width: 80%
+    background-color: #FFF8E3
+    color: #D44F4A
+    border-radius: 10px 0px 0px 10px
+    cursor: pointer    
+    .p
+      border-left: 2px solid #D44F4A
+      padding-left: 1em
+      font-size: 15px    
+  .div02
+    display: flex
+    width: 20%
+    background-color: #FFC200
+    border-radius: 0px 10px 10px 0px
+    cursor: pointer   
+
+.beat
+  animation: beat 1.0s
+  animation-iteration-count: infinite
+
+@keyframes beat 
+  0%  
+    transform: scale(1.0)
+  10%  
+    transform: scale(1.1)
+  20%  
+    transform: scale(1.2)
+  30%  
+    transform: scale(1.1)
+  40%  
+    transform: scale(1.2)
+  50%  
+    scale: (1.0)
+  60%  
+    scale: scale(1.1)
+  70%  
+    scale: scale(1.2)
+  80%  
+    scale: scale(1.1)
+  90%  
+    scale: scale(1.2)
+
+.bg-img-2 
+  background-image: url(../assets/curso/temas//img6.png)
+  background-repeat: no-repeat
+  background-size: cover
+  background-position: center
+
+.bloque-texto-c.color-primario
+  background-color: #F8E2E2 !important  
+.bloque-texto-c::after
+  background-color: #EA3065 !important
+.bloque-texto-c i  
+  color: #EA3065 !important
+
+.cajon.color-acento-contenido
+  background-color: #FFF8E3 !important  
