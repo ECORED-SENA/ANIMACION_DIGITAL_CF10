@@ -14,39 +14,33 @@
     .row.justify-content-evenly.align-items-center
       .col-lg-10    
         img.img-t.img-a.mt-5(data-aos="zoom-in")(src='@/assets/curso/temas/img7.jpg', alt='')
-        #anclas  
-        p.mt-5(data-aos="fade-down") La adquisición de estas herramientas permite concursar en las distintas convocatorias que oferta el gobierno nacional, y en otras convocatorias internacionales de carácter público y privado, por tanto el manejo de una metodología es requisito indispensable para participar en ellas y que los contenidos contemplados en las industrias creativas sean de carácter intangible y cultural por ello la información que se presenta a continuación está relacionada con la formulación de proyectos desde la perspectiva de los proyectos culturales.
-
-    #MapaGroup01        
-      .row.justify-content-evenly.align-items-center
-        .col-lg-10 
-          .row.justify-content-evenly.align-items-center.mt-5
-            .col-lg-5(data-aos="fade-down")
-              .divpadre(data-bs-toggle='collapse' data-bs-target='.multi-collapse1' aria-expanded='true' aria-controls='.multi-collapse1')
-                .row.justify-content-center.align-items-stretch
-                  .col-9.div01.p-3
-                    .p.mb-0 Emprendimiento y emprendimiento cultural
-                  .col-3.div02.p-3
-                    img.img-t.img-a(src='@/assets/curso/temas/lupa.svg', alt='')
-
-            .col-lg-5(data-aos="fade-down")
-              .divpadre(data-bs-toggle='collapse' data-bs-target='.multi-collapse2' aria-expanded='false' aria-controls='.multi-collapse2' @mouseover="indicadorTarjetaFlip = false")
-                .row.justify-content-center.align-items-stretch
-                  .col-9.div01.p-3
-                    .p.mb-0 Proyecto cultural
-                  .col-3.div02.p-3
-                    img.img-t.img-a(src='@/assets/curso/temas/lupa.svg', alt='')  
-                .indicador--click(v-if="mostrarIndicador")                              
-
-            .col-7.hr.mt-5 
+        p.mt-5(data-aos="fade-down") La adquisición de estas herramientas permite concursar en las distintas convocatorias que oferta el gobierno nacional, y en otras convocatorias internacionales de carácter público y privado, por tanto el manejo de una metodología es requisito indispensable para participar en ellas y que los contenidos contemplados en las industrias creativas sean de carácter intangible y cultural por ello la información que se presenta a continuación está relacionada con la formulación de proyectos desde la perspectiva de los proyectos culturales.    
+    .row.justify-content-evenly.align-items-center
+      .col-lg-10 
+        .row.justify-content-evenly.align-items-center.mt-5
+          .col-lg-5(data-aos="fade-down")
+            .divpadre(@click="modal1 = true")
+              .row.justify-content-center.align-items-stretch
+                .col-9.div01.p-3
+                  .p.mb-0 Emprendimiento y emprendimiento cultural
+                .col-3.div02.p-3
+                  img.img-t.img-a(src='@/assets/curso/temas/lupa.svg', alt='')
+             
+          .col-lg-5(data-aos="fade-down")
+            .divpadre(@click="modal2 = true")
+              .row.justify-content-center.align-items-stretch
+                .col-9.div01.p-3
+                  .p.mb-0 Proyecto cultural
+                .col-3.div02.p-3
+                  img.img-t.img-a(src='@/assets/curso/temas/lupa.svg', alt='')
+    .row.justify-content-center.align-items-center                   
+      .col-7.hr.mt-5 
     
-    .multi-collapse1.collapse.show(data-bs-parent='#MapaGroup01')
+    ModalA(:abrir-modal.sync="modal1")
       .row.justify-content-center.align-items-center.mt-5
         .col-8
           p(data-aos="fade-down") Antes de iniciar, es necesario comprender las diferencias entre el emprendimiento desde una visión general y el emprendimiento desde la visión cultural. 
-        .col-auto(data-aos="fade-down")
-          figure.beat(@click="goToElement('anclas')")
-            img(src='@/assets/curso/temas/up.svg', alt='icon', style='width: 33px; cursor: pointer').m-auto
+
       .row.justify-content-center.align-items-center.mt-5
         .col-8(data-aos="fade-down")
           .bloque-texto-c.color-primario.p-4
@@ -63,13 +57,11 @@
           .cajon.color-acento-contenido.p-4.mt-4
             p(data-aos="fade-down") El emprendimiento está relacionado con la administración de empresas como área de estudio y, aunque el éxito de un emprendimiento sí está determinado por el conocimiento de los distintos aspectos que conforman una organización, no es necesario estudiar esta carrera para tener resultados satisfactorios; basta con conocer las metodologías para convertir las ideas en proyectos y estos en realidades.           
 
-    .multi-collapse2.collapse(data-bs-parent='#MapaGroup01')
+    ModalA(:abrir-modal.sync="modal2")
       .row.justify-content-center.align-items-center.mt-5
         .col-8
           p(data-aos="fade-down") El proyecto es un formato definido para la comunicación entre un emprendedor, creativo o artista que tiene una idea o un bien intelectual o intangible, un producto o un servicio, y un financiador que tiene unos recursos económicos que puede destinar al mismo fin. El documento del proyecto contiene el detalle de las actividades, el presupuesto, el tiempo y los resultados finales; permite comprender una necesidad, un problema y ofrecer una solución. 
-        .col-auto(data-aos="fade-down")
-          figure.beat(@click="goToElement('anclas')")
-            img(src='@/assets/curso/temas/up.svg', alt='icon', style='width: 33px; cursor: pointer').m-auto
+
       .row.justify-content-center.align-items-center
         .col-8
           .row.justify-content-center.align-items-center.mt-5
@@ -145,6 +137,8 @@ export default {
   components: {},
   data: () => ({
     mostrarIndicador: true,
+    modal1: false,
+    modal2: false,
   }),
   mounted() {
     this.$nextTick(() => {

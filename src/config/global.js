@@ -42,7 +42,7 @@ export default {
         desarrolloContenidos: true,
       },
       {
-        nombreRuta: 'tem4',
+        nombreRuta: 'tema4',
         icono: 'far fa-file-alt',
         numero: '4',
         titulo: 'Presentar proyectos a convocatorias y concursos',
