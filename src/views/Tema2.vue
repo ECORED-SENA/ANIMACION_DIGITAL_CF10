@@ -39,40 +39,40 @@
     ModalA(:abrir-modal.sync="modal1")
       .row.justify-content-center.align-items-center.mt-5
         .col-8
-          p(data-aos="fade-down") Antes de iniciar, es necesario comprender las diferencias entre el emprendimiento desde una visión general y el emprendimiento desde la visión cultural. 
+          p Antes de iniciar, es necesario comprender las diferencias entre el emprendimiento desde una visión general y el emprendimiento desde la visión cultural. 
 
       .row.justify-content-center.align-items-center.mt-5
-        .col-8(data-aos="fade-down")
+        .col-8
           .bloque-texto-c.color-primario.p-4
             i.fas.fa-quote-right
             p.p-3.mb-0 Según el diccionario de la Real Academia Española #[b -RAE-] emprendimiento viene de la palabra emprender que significa #[b “acometer y comenzar una obra, un negocio, un empeño, especialmente si encierran dificultad o peligro”.]
 
-          p.mt-5(data-aos="fade-down") En el uso cotidiano, el emprendimiento está relacionado con accionar recursos, inicialmente propios, en el desarrollo de unas actividades en las que se invierte el tiempo y los saberes individuales para la obtención de recursos económicos.  
+          p.mt-5 En el uso cotidiano, el emprendimiento está relacionado con accionar recursos, inicialmente propios, en el desarrollo de unas actividades en las que se invierte el tiempo y los saberes individuales para la obtención de recursos económicos.  
           .row.justify-content-center.align-items-center.mt-5
             .col-lg-8
-              p(data-aos="fade-down") El emprendimiento cultural por su parte se refiere a las acciones de tipo artístico y creativo que involucran las expresiones individuales o grupales por medio de las cuales se transmite la cultura de un lugar determinado, a la vez que crean sentido y significado, y que se realizan más que con el fin de lucro económico, con la idea de impactar a un receptor en diferentes contextos. Como ya se verificó desde el marco legal, Colombia ha regulado el quehacer artístico y creativo para que además de la creación, la difusión, la circulación, la financiación y demás componentes de esta cadena de valor, se fortalezcan y se consoliden y generen un sector económico rentable y en crecimiento permanente.        
+              p El emprendimiento cultural por su parte se refiere a las acciones de tipo artístico y creativo que involucran las expresiones individuales o grupales por medio de las cuales se transmite la cultura de un lugar determinado, a la vez que crean sentido y significado, y que se realizan más que con el fin de lucro económico, con la idea de impactar a un receptor en diferentes contextos. Como ya se verificó desde el marco legal, Colombia ha regulado el quehacer artístico y creativo para que además de la creación, la difusión, la circulación, la financiación y demás componentes de esta cadena de valor, se fortalezcan y se consoliden y generen un sector económico rentable y en crecimiento permanente.        
             .col-lg-4 
-              img.img-t.img-a(data-aos="zoom-in")(src='@/assets/curso/temas/img8.svg', alt='')
+              img.img-t.img-a(src='@/assets/curso/temas/img8.svg', alt='')
 
           .cajon.color-acento-contenido.p-4.mt-4
-            p.mb-0(data-aos="fade-down") El emprendimiento está relacionado con la administración de empresas como área de estudio y, aunque el éxito de un emprendimiento sí está determinado por el conocimiento de los distintos aspectos que conforman una organización, no es necesario estudiar esta carrera para tener resultados satisfactorios; basta con conocer las metodologías para convertir las ideas en proyectos y estos en realidades.           
+            p.mb-0 El emprendimiento está relacionado con la administración de empresas como área de estudio y, aunque el éxito de un emprendimiento sí está determinado por el conocimiento de los distintos aspectos que conforman una organización, no es necesario estudiar esta carrera para tener resultados satisfactorios; basta con conocer las metodologías para convertir las ideas en proyectos y estos en realidades.           
 
     ModalA(:abrir-modal.sync="modal2")
       .row.justify-content-center.align-items-center.mt-5
         .col-8
-          p(data-aos="fade-down") El proyecto es un formato definido para la comunicación entre un emprendedor, creativo o artista que tiene una idea o un bien intelectual o intangible, un producto o un servicio, y un financiador que tiene unos recursos económicos que puede destinar al mismo fin. El documento del proyecto contiene el detalle de las actividades, el presupuesto, el tiempo y los resultados finales; permite comprender una necesidad, un problema y ofrecer una solución. 
+          p El proyecto es un formato definido para la comunicación entre un emprendedor, creativo o artista que tiene una idea o un bien intelectual o intangible, un producto o un servicio, y un financiador que tiene unos recursos económicos que puede destinar al mismo fin. El documento del proyecto contiene el detalle de las actividades, el presupuesto, el tiempo y los resultados finales; permite comprender una necesidad, un problema y ofrecer una solución. 
 
       .row.justify-content-center.align-items-center
         .col-8
           .row.justify-content-center.align-items-center.mt-5
             .col-lg-4 
-              img.img-t.img-a(data-aos="zoom-in")(src='@/assets/curso/temas/img9.svg', alt='')         
-            .col-lg-8(data-aos="fade-down")
+              img.img-t.img-a(src='@/assets/curso/temas/img9.svg', alt='')         
+            .col-lg-8
               p Los proyectos se formulan para planificar de manera estratégica y anticiparse a todo lo que se espera que ocurra en el proceso de generación o creación de bienes, servicios, productos e intangibles. Es el primer paso en el camino para la materialización de las ideas desde un plan de negocio. 
               p Ahora bien, un proyecto cultural involucra factores que muchas veces se creen intangibles pero que también se pueden identificar, planificar, diseñar, organizar, implementar, ejecutar y evaluar, según los objetivos y actividades establecidas al inicio.
 
           .cajon.color-acento-contenido.p-4.mt-4
-            p.mb-0(data-aos="fade-down") Es importante diferenciar desde primer momento si lo que se pretende es realizar un proyecto o un plan de negocio, puesto que ambos tienen objetivos y procesos distintos, e implican métodos de trabajo diferentes, tal y como se observa en la siguiente tabla 1.  
+            p.mb-0 Es importante diferenciar desde primer momento si lo que se pretende es realizar un proyecto o un plan de negocio, puesto que ambos tienen objetivos y procesos distintos, e implican métodos de trabajo diferentes, tal y como se observa en la siguiente tabla 1.  
           .tabla-a
             table.mt-5
               caption Nota. Elaboración propia a partir del Curso de formulación de proyectos culturales. Secretaría de cultura, recreación y deporte. Alcaldía Mayor de Bogotá (2021). https://formacion.scrd.gov.co 
@@ -117,18 +117,18 @@
                   td.bord-right.bor-b Ejemplos: investigación, estados del arte, programas de capacitación, rescate de situaciones de vulnerabilidad, sensibilización de problemáticas, etc.
                   td.bord-right-none.bor-b Ejemplos: Tiendas de museos, festivales, academias y escuelas, oferta de productos y servicios culturales.
 
-          p.mt-5(data-aos="fade-down") Pese a que las diferencias entre ambos formatos son claras, los proyectos audiovisuales digitales pueden tener algunas características que lo acerquen al formato de plan de negocio ya que se pueden realizar con una intención de obtener rentabilidad por los altos costos asociados. Por ejemplo, un proyecto de animación digital puede extenderse en el tiempo y obtener recursos en más de una ocasión, presentándose en diversas convocatorias o concursos.  
+          p.mt-5 Pese a que las diferencias entre ambos formatos son claras, los proyectos audiovisuales digitales pueden tener algunas características que lo acerquen al formato de plan de negocio ya que se pueden realizar con una intención de obtener rentabilidad por los altos costos asociados. Por ejemplo, un proyecto de animación digital puede extenderse en el tiempo y obtener recursos en más de una ocasión, presentándose en diversas convocatorias o concursos.  
           .row.justify-content-start.align-items-center.mt-5.d-none.d-lg-block
-            .col-lg-10.color-col1.p-3(data-aos="fade-down")
+            .col-lg-10.color-col1.p-3
               p.mb-0.pe-5.me-5 De la misma manera, para adaptarse a los métodos de consecución de recursos, se puede elaborar un proyecto de corto plazo que tenga por objeto generar un determinado impacto, por ejemplo, en una comunidad o un barrio.
 
           .row.justify-content-start.align-items-center.mt-5.d-block.d-lg-none.pb-5
-            .col-lg-10.color-col1.p-3(data-aos="fade-down")
+            .col-lg-10.color-col1.p-3
               p.mb-0 De la misma manera, para adaptarse a los métodos de consecución de recursos, se puede elaborar un proyecto de corto plazo que tenga por objeto generar un determinado impacto, por ejemplo, en una comunidad o un barrio.
 
           .row.justify-content-end.align-items-center.row-top-1
             .col-lg-4.d-none.d-lg-block 
-              img.img-t.img-a(data-aos="zoom-in")(src='@/assets/curso/temas/img10.svg', alt='')        
+              img.img-t.img-a(src='@/assets/curso/temas/img10.svg', alt='')        
 </template>
 
 <script>
