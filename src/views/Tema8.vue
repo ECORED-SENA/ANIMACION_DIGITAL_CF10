@@ -140,7 +140,56 @@
               h4(data-aos="fade-down").mt-5.p-tema5-color-red ● Analítica y medición de resultados
               p Realizando un listado de las herramientas de analítica para conocer la interacción de los usuarios con la aplicación y la página web, se conocerá el modo de ir mejorando aspectos de la misma.
                            
-      
+    .row.justify-content-center.align-items-center
+      .col-lg-10
+        h4(data-aos="fade-down").pt-5.mt-5.p-tema5-color-red  ● Medios de difusión digital o social media. 
+        p(data-aos="fade-down") El Social Media Marketing es una serie de herramientas que se ponen en marcha para abrir diversos canales de comunicación en el mundo digital, que a la vez se constituyen como un canal de comunicación con una audiencia completamente digital.
+
+        .cajon.color-acento-contenido.p-4.mt-4
+          p.mb-0(data-aos="fade-down") Una definición de Social Media Marketing indica que se trata de la construcción de un negocio a través de muchos medios diferentes, como videos virales y blogs, con el fin de dar exposición a una empresa y ejecutar distintos procesos de comercialización.
+
+        p.mt-5(data-aos="fade-down") El Social Media funciona con variedad de formatos para internet que incluyen audio, video, texto, pods de audio, y foros privados, foros de discusión pública, SMS, chat, correos electrónicos, así como blogs, etc. y que posibilitan la entrega de contenidos y que hacen parte de las estrategias digitales. Algunos de los más relevantes son: 
+ 
+        ImagenInfografica.color-primario.mt-5(data-aos="flip-down")
+          template(v-slot:imagen)
+            figure
+              img(src='@/assets/curso/temas/img77.png', alt='')
+
+          .tarjeta.color-acento-contenido.p-3(x="27.8%" y="15.5%" numero="")
+            p #[b Videos:] los videos, según informe de Cisco, ya son el formato de contenido más consumido de internet y serán aún más. Hasta 2021, la expectativa es que representan el 82% del tráfico global.
+ 
+          .tarjeta.color-acento-contenido.p-3(x="33.5%" y="34.8%" numero="")
+            p #[b Blogsposts:] este es el formato más utilizado en las estrategias de producción de contenido que buscan engagement.
+
+          .tarjeta.color-acento-contenido.p-3(x="27.8%" y="54.5%" numero="")
+            p #[b  Webinars:] son conferencias, charlas o chats realizados online y en directo para un grupo de espectadores virtuales.
+
+          .tarjeta.color-acento-contenido.p-3(x="39.2%" y="75%" numero="")
+            p #[b Memes en video:] son formatos más simples y que difícilmente educan al mercado o convencen a alguien a una conversión.
+
+          .tarjeta.color-acento-contenido.p-3(x="50.2%" y="64.5%" numero="")
+            p #[b Gifs animados:] se utilizan para el humor, pero, a diferencia de los memes, pueden pasar más información valiosa.           
+               
+          .tarjeta.color-acento-contenido.p-3(x="60.9%" y="75%" numero="")
+            p #[b Juegos:] es el formato más dinámico y participativo de la lista.
+
+          .tarjeta.color-acento-contenido.p-3(x="71.8%" y="54.5%" numero="")
+            p #[b Aplicaciones:] herramientas que pretenden facilitar la vida de los usuarios. 
+            
+          .tarjeta.color-acento-contenido.p-3(x="65.9%" y="34.8%" numero="")
+            p #[b Slides:] útiles para presentación en eventos, en Slideshare o en webinars
+ 
+          .tarjeta.color-acento-contenido.p-3(x="71.8%" y="15.5%" numero="")
+            p #[b Las películas:] son uno de los formatos más utilizados en la historia de la publicidad y del marketing. Obviamente, no estamos hablando de largometrajes, sino de los viejos, queridos y actuales comerciales.
+  
+        p.mt-5.text-center(data-aos="fade-down") Finalmente se puede ampliar la información sobre este y otros medios de difusión digital consultando a través de la web y/o se puede revisar el siguiente video:    
+
+        figure.mt-5(data-aos="fade-left")
+          .video
+            iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)  
+
+                
+
 </template>
 
 <script>

@@ -55,7 +55,7 @@
               img.img-t.img-a(data-aos="zoom-in")(src='@/assets/curso/temas/img8.svg', alt='')
 
           .cajon.color-acento-contenido.p-4.mt-4
-            p(data-aos="fade-down") El emprendimiento está relacionado con la administración de empresas como área de estudio y, aunque el éxito de un emprendimiento sí está determinado por el conocimiento de los distintos aspectos que conforman una organización, no es necesario estudiar esta carrera para tener resultados satisfactorios; basta con conocer las metodologías para convertir las ideas en proyectos y estos en realidades.           
+            p.mb-0(data-aos="fade-down") El emprendimiento está relacionado con la administración de empresas como área de estudio y, aunque el éxito de un emprendimiento sí está determinado por el conocimiento de los distintos aspectos que conforman una organización, no es necesario estudiar esta carrera para tener resultados satisfactorios; basta con conocer las metodologías para convertir las ideas en proyectos y estos en realidades.           
 
     ModalA(:abrir-modal.sync="modal2")
       .row.justify-content-center.align-items-center.mt-5
@@ -72,7 +72,7 @@
               p Ahora bien, un proyecto cultural involucra factores que muchas veces se creen intangibles pero que también se pueden identificar, planificar, diseñar, organizar, implementar, ejecutar y evaluar, según los objetivos y actividades establecidas al inicio.
 
           .cajon.color-acento-contenido.p-4.mt-4
-            p(data-aos="fade-down") Es importante diferenciar desde primer momento si lo que se pretende es realizar un proyecto o un plan de negocio, puesto que ambos tienen objetivos y procesos distintos, e implican métodos de trabajo diferentes, tal y como se observa en la siguiente tabla 1.  
+            p.mb-0(data-aos="fade-down") Es importante diferenciar desde primer momento si lo que se pretende es realizar un proyecto o un plan de negocio, puesto que ambos tienen objetivos y procesos distintos, e implican métodos de trabajo diferentes, tal y como se observa en la siguiente tabla 1.  
           .tabla-a
             table.mt-5
               caption Nota. Elaboración propia a partir del Curso de formulación de proyectos culturales. Secretaría de cultura, recreación y deporte. Alcaldía Mayor de Bogotá (2021). https://formacion.scrd.gov.co 

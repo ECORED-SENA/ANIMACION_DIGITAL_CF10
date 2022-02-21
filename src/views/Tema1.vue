@@ -15,7 +15,7 @@
       .row.justify-content-center.align-items-center.mt-5      
         .col-lg-8(data-aos="fade-left")
           LineaTiempoA.color-primario.mb-5(:datos="datosLineaTiempoA")
-    .row.justify-content-end.align-items-start.mt-5.row-top      
+    .row.justify-content-end.align-items-start.row-top-2      
       .col-lg-5
           img.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/img4.svg', alt='')
 
