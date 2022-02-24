@@ -73,6 +73,8 @@
 
           .cajon.color-acento-contenido.p-4.mt-4
             p.mb-0 Es importante diferenciar desde primer momento si lo que se pretende es realizar un proyecto o un plan de negocio, puesto que ambos tienen objetivos y procesos distintos, e implican métodos de trabajo diferentes, tal y como se observa en la siguiente tabla 1. 
+      .row.justify-content-center.align-items-center
+        .col-lg-8            
           .titulo-sexto.color-acento-contenido.mt-5
             h5 Tabla 1.
             span Proyecto cultural vs Plan de negocio cultural             
