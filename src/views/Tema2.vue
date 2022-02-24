@@ -18,7 +18,7 @@
     .row.justify-content-evenly.align-items-center
       .col-lg-10 
         .row.justify-content-evenly.align-items-center.mt-5
-          .col-lg-5(data-aos="fade-down")
+          .col-lg-5.my-2(data-aos="fade-down")
             .divpadre(@click="modal1 = true")
               .row.justify-content-center.align-items-stretch
                 .col-9.div01.p-3
@@ -26,7 +26,7 @@
                 .col-3.div02.p-3
                   img.img-t.img-a(src='@/assets/curso/temas/lupa.svg', alt='')
              
-          .col-lg-5(data-aos="fade-down")
+          .col-lg-5.my-2(data-aos="fade-down")
             .divpadre(@click="modal2 = true")
               .row.justify-content-center.align-items-stretch
                 .col-9.div01.p-3
@@ -38,11 +38,11 @@
     
     ModalA(:abrir-modal.sync="modal1")
       .row.justify-content-center.align-items-center.mt-5
-        .col-8
+        .col-lg-8
           p Antes de iniciar, es necesario comprender las diferencias entre el emprendimiento desde una visión general y el emprendimiento desde la visión cultural. 
 
       .row.justify-content-center.align-items-center.mt-5
-        .col-8
+        .col-lg-8
           .bloque-texto-c.color-primario.p-4
             i.fas.fa-quote-right
             p.p-3.mb-0 Según el diccionario de la Real Academia Española #[b -RAE-] emprendimiento viene de la palabra emprender que significa #[b “acometer y comenzar una obra, un negocio, un empeño, especialmente si encierran dificultad o peligro”.]
@@ -59,11 +59,11 @@
 
     ModalA(:abrir-modal.sync="modal2")
       .row.justify-content-center.align-items-center.mt-5
-        .col-8
+        .col-lg-8
           p El proyecto es un formato definido para la comunicación entre un emprendedor, creativo o artista que tiene una idea o un bien intelectual o intangible, un producto o un servicio, y un financiador que tiene unos recursos económicos que puede destinar al mismo fin. El documento del proyecto contiene el detalle de las actividades, el presupuesto, el tiempo y los resultados finales; permite comprender una necesidad, un problema y ofrecer una solución. 
 
       .row.justify-content-center.align-items-center
-        .col-8
+        .col-lg-8
           .row.justify-content-center.align-items-center.mt-5
             .col-lg-4 
               img.img-t.img-a(src='@/assets/curso/temas/img9.svg', alt='')         
@@ -72,9 +72,12 @@
               p Ahora bien, un proyecto cultural involucra factores que muchas veces se creen intangibles pero que también se pueden identificar, planificar, diseñar, organizar, implementar, ejecutar y evaluar, según los objetivos y actividades establecidas al inicio.
 
           .cajon.color-acento-contenido.p-4.mt-4
-            p.mb-0 Es importante diferenciar desde primer momento si lo que se pretende es realizar un proyecto o un plan de negocio, puesto que ambos tienen objetivos y procesos distintos, e implican métodos de trabajo diferentes, tal y como se observa en la siguiente tabla 1.  
+            p.mb-0 Es importante diferenciar desde primer momento si lo que se pretende es realizar un proyecto o un plan de negocio, puesto que ambos tienen objetivos y procesos distintos, e implican métodos de trabajo diferentes, tal y como se observa en la siguiente tabla 1. 
+          .titulo-sexto.color-acento-contenido.mt-5
+            h5 Tabla 1.
+            span Proyecto cultural vs Plan de negocio cultural             
           .tabla-a
-            table.mt-5
+            table
               caption Nota. Elaboración propia a partir del Curso de formulación de proyectos culturales. Secretaría de cultura, recreación y deporte. Alcaldía Mayor de Bogotá (2021). https://formacion.scrd.gov.co 
               tbody
                 tr.color-header

@@ -5,7 +5,7 @@
     .titulo-principal.color-acento-contenido(data-aos="zoom-in-left")
       .titulo-principal__numero
         span 8
-      h1 Marketing digital
+      h1 #[i Marketing] digital
 
     .row.justify-content-evenly.align-items-center(data-aos="fade-down") 
       .col-lg-10
@@ -16,7 +16,7 @@
       .col-lg-10.bg-img-3.pt-4
         .row.justify-content-evenly.align-items-center
           .col-lg-8            
-            p.mt-5 Este término se refiere a las acciones que una organización realiza para alcanzar unos objetivos determinados, que siempre están relacionados con el mejoramiento de los ingresos, y que se recogen en el documento #[b #[i Plan de Marketing.]]     
+            p.mt-5 Este término se refiere a las acciones que una organización realiza para alcanzar unos objetivos determinados, que siempre están relacionados con el mejoramiento de los ingresos, y que se recogen en el documento #[b #[i Plan de #[i Marketing].]]     
 
     .row.justify-content-evenly.align-items-center.mt-5
       .col-lg-8 
@@ -28,7 +28,7 @@
           .col-lg-5 
             img.img-t.img-a(src='@/assets/curso/temas/img70.svg', alt='')
           .col-lg-7
-            p(data-aos="fade-down") Las estrategias de marketing digital están relacionadas principalmente con hacerse más visible, tener más clientes y ganar más dinero. La popularidad y el éxito de la publicidad y el marketing por internet se debe principalmente a que los costos de producción son mucho más bajos que en cualquier otro medio de comunicación, y a que las ventajas y facilidades de producir campañas, puede reportar grandes y mejores respuestas de parte del consumidor, pudiendo hacer, inclusive, mejoras inmediatas en la comunicación gracias a las herramientas de medición del comportamiento de los consumidores.   
+            p(data-aos="fade-down") Las estrategias de #[i Marketing] digital están relacionadas principalmente con hacerse más visible, tener más clientes y ganar más dinero. La popularidad y el éxito de la publicidad y el #[i Marketing] por internet se debe principalmente a que los costos de producción son mucho más bajos que en cualquier otro medio de comunicación, y a que las ventajas y facilidades de producir campañas, puede reportar grandes y mejores respuestas de parte del consumidor, pudiendo hacer, inclusive, mejoras inmediatas en la comunicación gracias a las herramientas de medición del comportamiento de los consumidores.   
 
     .row.justify-content-center.align-items-center.mt-5
       .col-lg-8 
@@ -36,65 +36,66 @@
 
     .row.justify-content-center.align-items-center                   
       .col-7.hr.my-4
-    .row.justify-content-center.align-items-center
-      .col-lg-10
-        h4(data-aos="fade-down").mt-5.p-tema5-color-red ● El plan de marketing
-        p(data-aos="fade-down") El plan estratégico de marketing digital, también llamado plan de medios digitales, es un documento en el cual se estudia el proyecto a profundidad, se analiza qué está pasando en la actualidad, la competencia y modelos de negocio similares, y los objetivos que se quieren alcanzar; con todo ello se realiza un plan de acción para, a través de los distintos canales y estrategias de marketing digitales (redes sociales, buscadores, email, etc.), conseguir los objetivos propuestos. 
-    .row.justify-content-center.align-items-center
-      .col-lg-6(data-aos="fade-down")
-        p.mt-5.text-center.p-tema5-red.p-3 El plan de medios debe estructurarse de la siguiente manera: 
-    .row.justify-content-center.align-items-center
-      .col-lg-10(data-aos="fade-down")
-        TabsA.color-acento-botones.mt-5   
-          .tarjeta.color-acento-botones--borde.p-4(titulo="Análisis de situación")
-            .row.justify-content-center.align-items-center
-              .col-lg-5
-                img.img-t.img-a(src='@/assets/curso/temas/img71.jpg', alt='')
-              .col-lg-7
-                p Antes de comenzar con las estrategias de cada uno de los canales digitales que se van a utilizar para promocionar un proyecto, se debe hacer estudio a profundidad del contexto actual, la situación externa de la economía y del sector, así como de la situación al interior de la empresa de nuestro cliente, contando con la mayor información posible para poder hacer un análisis completo y tomar las mejores decisiones dentro de la estrategia digital.
+    .bg-img-5      
+      .row.justify-content-center.align-items-center
+        .col-lg-10
+          h4(data-aos="fade-down").mt-5.p-tema5-color-red ● El plan de #[i Marketing]
+          p(data-aos="fade-down") El plan estratégico de #[i Marketing] digital, también llamado plan de medios digitales, es un documento en el cual se estudia el proyecto a profundidad, se analiza qué está pasando en la actualidad, la competencia y modelos de negocio similares, y los objetivos que se quieren alcanzar; con todo ello se realiza un plan de acción para, a través de los distintos canales y estrategias de #[i Marketing] digitales (redes sociales, buscadores, email, etc.), conseguir los objetivos propuestos. 
+      .row.justify-content-center.align-items-center
+        .col-lg-6(data-aos="fade-down")
+          p.mt-5.text-center.p-tema5-red.p-3 El plan de medios debe estructurarse de la siguiente manera: 
+      .row.justify-content-center.align-items-center
+        .col-lg-10(data-aos="fade-down")
+          TabsA.color-acento-botones.mt-5   
+            .tarjeta.color-acento-botones--borde.p-4(titulo="Análisis de situación")
+              .row.justify-content-center.align-items-center
+                .col-lg-5
+                  img.img-t.img-a(src='@/assets/curso/temas/img71.jpg', alt='')
+                .col-lg-7
+                  p Antes de comenzar con las estrategias de cada uno de los canales digitales que se van a utilizar para promocionar un proyecto, se debe hacer estudio a profundidad del contexto actual, la situación externa de la economía y del sector, así como de la situación al interior de la empresa de nuestro cliente, contando con la mayor información posible para poder hacer un análisis completo y tomar las mejores decisiones dentro de la estrategia digital.
 
-          .tarjeta.color-acento-botones--borde.p-4(titulo="Análisis de contexto actual")
-            .row.justify-content-center.align-items-center
-              .col-lg-5
-                img.img-t.img-a(src='@/assets/curso/temas/img72.jpg', alt='')
-              .col-lg-7
-                p Un análisis de la situación económica y social actual en el ámbito geográfico en el que se desean ofrecer los productos o servicios de la empresa.  
+            .tarjeta.color-acento-botones--borde.p-4(titulo="Análisis de contexto actual")
+              .row.justify-content-center.align-items-center
+                .col-lg-5
+                  img.img-t.img-a(src='@/assets/curso/temas/img72.jpg', alt='')
+                .col-lg-7
+                  p Un análisis de la situación económica y social actual en el ámbito geográfico en el que se desean ofrecer los productos o servicios de la empresa.  
 
-          .tarjeta.color-acento-botones--borde.p-4(titulo="Análisis de situación")
-            .row.justify-content-center.align-items-center
-              .col-lg-5
-                img.img-t.img-a(src='@/assets/curso/temas/img73.jpg', alt='')
-              .col-lg-7
-                p Análisis exhaustivo de cuál es el target más interesado en el producto o servicio con el fin de enfocar las estrategias de marketing futuras de este sector.    
+            .tarjeta.color-acento-botones--borde.p-4(titulo="Análisis del público")
+              .row.justify-content-center.align-items-center
+                .col-lg-5
+                  img.img-t.img-a(src='@/assets/curso/temas/img73.jpg', alt='')
+                .col-lg-7
+                  p Análisis exhaustivo de cuál es el #[i target] más interesado en el producto o servicio con el fin de enfocar las estrategias de #[i Marketing] futuras de este sector.    
 
-          .tarjeta.color-acento-botones--borde.p-4(titulo="Análisis de la competencia")
-            .row.justify-content-center.align-items-center
-              .col-lg-5
-                img.img-t.img-a(src='@/assets/curso/temas/img74.jpg', alt='')
-              .col-lg-7
-                p Es un análisis de todas las empresas o personas que hacen ruido en la web, posicionándose con productos o servicios iguales o sustitutivos de los que deseamos vender.  
+            .tarjeta.color-acento-botones--borde.p-4(titulo="Análisis de la competencia")
+              .row.justify-content-center.align-items-center
+                .col-lg-5
+                  img.img-t.img-a(src='@/assets/curso/temas/img74.jpg', alt='')
+                .col-lg-7
+                  p Es un análisis de todas las empresas o personas que hacen ruido en la web, posicionándose con productos o servicios iguales o sustitutivos de los que deseamos vender.  
 
-          .tarjeta.color-acento-botones--borde.p-4(titulo="Análisis DOFA")
-            .row.justify-content-center.align-items-center
-              .col-lg-5
-                img.img-t.img-a(src='@/assets/curso/temas/img75.jpg', alt='')
-              .col-lg-7
-                p En qué situación se encuentra la empresa, tanto de manera externa como interna a través de sus Debilidades, Oportunidades, Fortalezas y Amenazas, minimizando los aspectos negativos internos y externos.                                                          
+            .tarjeta.color-acento-botones--borde.p-4(titulo="Análisis DOFA")
+              .row.justify-content-center.align-items-center
+                .col-lg-5
+                  img.img-t.img-a(src='@/assets/curso/temas/img75.jpg', alt='')
+                .col-lg-7
+                  p En qué situación se encuentra la empresa, tanto de manera externa como interna a través de sus Debilidades, Oportunidades, Fortalezas y Amenazas, minimizando los aspectos negativos internos y externos.                                                          
     .row.justify-content-center.align-items-center                   
       .col-7.hr.my-4 
 
     .row.justify-content-center.align-items-center                   
-      .col-8
+      .col-lg-8
         img.img-t.img-a(src='@/assets/curso/temas/img76.svg', alt='')
         SlyderA.slider-color.p-2
           .row.justify-content-center.align-items-center     
             .col-9
-              h4(data-aos="fade-down").mt-5.p-tema5-color-red ● Estrategias de marketing digital 
+              h4(data-aos="fade-down").mt-5.p-tema5-color-red ● Estrategias de #[i Marketing] digital 
               p Luego de haber analizado la situación, es necesario pensar en la estrategia con la que se va a llevar el proyecto a un nuevo posicionamiento en el mercado digital, utilizando todas las herramientas que brinda internet.
           .row.justify-content-center.align-items-center     
             .col-9
               h4(data-aos="fade-down").mt-5.p-tema5-color-red ● Objetivos del negocio 
-              p Se fijan los objetivos que se desean alcanzar para posteriormente elaborar el Plan Estratégico de Marketing con base a estos objetivos.    
+              p Se fijan los objetivos que se desean alcanzar para posteriormente elaborar el Plan Estratégico de #[i Marketing] con base a estos objetivos.    
           .row.justify-content-center.align-items-center     
             .col-9
               h4(data-aos="fade-down").mt-5.p-tema5-color-red ● Estrategias en Redes Sociales 
@@ -109,7 +110,7 @@
               p Es un análisis sobre medios publicitarios digitales en el que se paga por cada visita obtenida en la web, con todas las posibilidades que estas plataformas brindan, como la microsegmentación de los anuncios o la posibilidad de pausar y reanudar en cualquier momento las campañas de publicidad.
           .row.justify-content-center.align-items-center     
             .col-9
-              h4(data-aos="fade-down").mt-5.p-tema5-color-red ● Estrategias en Email Marketing
+              h4(data-aos="fade-down").mt-5.p-tema5-color-red ● Estrategias en Email #[i Marketing]
               p Se trata de estrategias que buscan la forma más efectiva de usar el email como medio para la captación de clientes y de conversión de ventas.
           .row.justify-content-center.align-items-center     
             .col-9
@@ -117,7 +118,7 @@
               p Un análisis sobre los elementos fundamentales que debe tener la página web, el cómo conseguir los objetivos marcados, con especial atención a la accesibilidad de la misma, la identidad, la navegación sencilla e intuitiva, el tipo de contenido y la usabilidad de la misma.
           .row.justify-content-center.align-items-center     
             .col-9
-              h4(data-aos="fade-down").mt-5.p-tema5-color-red ● Estrategias de Inbound Marketing
+              h4(data-aos="fade-down").mt-5.p-tema5-color-red ● Estrategias de Inbound #[i Marketing]
               p Atraer a potenciales clientes mediante contenidos digitales de calidad que ellos están consumiendo de manera voluntaria y a partir de aquí seguir “seduciendo” al lector para convertirlo de extraño a visitante regular de la web, de visitante de la web a “lead” (potencial cliente que nos ha dejado sus datos de contacto) de “lead” a cliente y de cliente a promotor o prescriptor de nuestra empresa a través de comentarios o acciones virtuales. 
           .row.justify-content-center.align-items-center     
             .col-9
@@ -143,10 +144,10 @@
     .row.justify-content-center.align-items-center
       .col-lg-10
         h4(data-aos="fade-down").pt-5.mt-5.p-tema5-color-red  ● Medios de difusión digital o social media. 
-        p(data-aos="fade-down") El Social Media Marketing es una serie de herramientas que se ponen en marcha para abrir diversos canales de comunicación en el mundo digital, que a la vez se constituyen como un canal de comunicación con una audiencia completamente digital.
+        p(data-aos="fade-down") El Social Media #[i Marketing] es una serie de herramientas que se ponen en marcha para abrir diversos canales de comunicación en el mundo digital, que a la vez se constituyen como un canal de comunicación con una audiencia completamente digital.
 
         .cajon.color-acento-contenido.p-4.mt-4
-          p.mb-0(data-aos="fade-down") Una definición de Social Media Marketing indica que se trata de la construcción de un negocio a través de muchos medios diferentes, como videos virales y blogs, con el fin de dar exposición a una empresa y ejecutar distintos procesos de comercialización.
+          p.mb-0(data-aos="fade-down") Una definición de Social Media #[i Marketing] indica que se trata de la construcción de un negocio a través de muchos medios diferentes, como videos virales y blogs, con el fin de dar exposición a una empresa y ejecutar distintos procesos de comercialización.
 
         p.mt-5(data-aos="fade-down") El Social Media funciona con variedad de formatos para internet que incluyen audio, video, texto, pods de audio, y foros privados, foros de discusión pública, SMS, chat, correos electrónicos, así como blogs, etc. y que posibilitan la entrega de contenidos y que hacen parte de las estrategias digitales. Algunos de los más relevantes son: 
  
@@ -180,13 +181,13 @@
             p #[b Slides:] útiles para presentación en eventos, en Slideshare o en webinars
  
           .tarjeta.color-acento-contenido.p-3(x="71.8%" y="15.5%" numero="")
-            p #[b Las películas:] son uno de los formatos más utilizados en la historia de la publicidad y del marketing. Obviamente, no estamos hablando de largometrajes, sino de los viejos, queridos y actuales comerciales.
+            p #[b Las películas:] son uno de los formatos más utilizados en la historia de la publicidad y del #[i Marketing]. Obviamente, no estamos hablando de largometrajes, sino de los viejos, queridos y actuales comerciales.
   
         p.mt-5.text-center(data-aos="fade-down") Finalmente se puede ampliar la información sobre este y otros medios de difusión digital consultando a través de la web y/o se puede revisar el siguiente video:    
 
         figure.mt-5(data-aos="fade-left")
           .video
-            iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)  
+            iframe(width="560" height="315" src="https://www.youtube.com/embed/dGvw8reGgNg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)  
 
                 
 

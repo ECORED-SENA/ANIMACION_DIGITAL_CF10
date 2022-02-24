@@ -44,7 +44,7 @@
     .row.justify-content-evenly.align-items-center
       .col-lg-10 
         .row.justify-content-evenly.align-items-center.mt-5
-          .col-lg-5(data-aos="fade-down")
+          .col-lg-5.my-2(data-aos="fade-down")
             .divpadre(@click="modal1 = true")
               .row.justify-content-center.align-items-stretch
                 .col-9.div01.p-3
@@ -52,7 +52,7 @@
                 .col-3.div02.p-3
                   img.img-t.img-a(src='@/assets/curso/temas/lupa.svg', alt='')             
 
-          .col-lg-5(data-aos="fade-down")
+          .col-lg-5.my-2(data-aos="fade-down")
             .divpadre(@click="modal2 = true")
               .row.justify-content-center.align-items-stretch
                 .col-9.div01.p-3
@@ -69,7 +69,7 @@
                 
       figure.mt-5
         .video
-          iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+          iframe(width="560" height="315" src="https://www.youtube.com/embed/jfUgtkw5sow" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
       .row.justify-content-center.align-items-center.mt-5
         .col-lg-10
@@ -142,6 +142,14 @@
 
             .row.justify-content-evenly.align-items-center
               .col-md-6.mb-4.mb-md-0
+                h5 Impacto del proyecto
+                p Se refiere a los beneficios concretos que se espera conseguir con el proyecto después de haber alcanzado con éxito los objetivos. Se pretende demostrar cómo los logros del proyecto habrán modificado favorablemente y en forma estable las condiciones iniciales.
+            
+              .col-md-6
+                img.img-t.img-a(src='@/assets/curso/temas/img26_1.jpg', alt='')  
+
+            .row.justify-content-evenly.align-items-center
+              .col-md-6.mb-4.mb-md-0
                 h5 Beneficiarios
                 p Dependen del carácter, naturaleza, categoría o tipo de proyecto; su composición es variada y diferente.  La distribución de la población se puede hacer desde el punto de vista social, económico, educativo, de tal manera que permite visualizar la población que puede constituirse en objeto de un proyecto. 
             
@@ -173,19 +181,19 @@
                 
       figure.mt-5
         .video
-          iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+          iframe(width="560" height="315" src="https://www.youtube.com/embed/ojuhHUpBehA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
       .row.justify-content-center.align-items-center.mt-5
         .col-lg-10
-          p.bg-yellow-p.p-4.mb-0 En el caso de #[u la creación de los contenidos] o piezas de #[u animación digital] que #[u son en sí mismos un proyecto tecnológico (videojuego, película)] o que sirven como componentes de ellos (aplicación, web, etc.), es necesario evaluar el uso de las metodologías para la gestión de proyectos digitales o de software.
+          p.bg-yellow-p.p-4.mb-0 En el caso de #[u la creación de los contenidos] o piezas de #[u animación digital] que #[u son en sí mismos un proyecto tecnológico (videojuego, película)] o que sirven como componentes de ellos (aplicación, web, etc.), es necesario evaluar el uso de las metodologías para la gestión de proyectos digitales o de #[i software].
 
           p.mt-5 La compañía Wrike ha categorizado en su página web las principales metodologías para la gestión de proyectos de la siguiente manera:
 
       .tarjeta.tarjeta--gris.p-4.mt-5.bg-gradi
         LineaTiempoC.color-primario(text-small)
           .row.justify-content-center.align-items-center.my-5(titulo="Proyecto")
-            .col-8
-              p.color-p-intro.p-4 #[b Título del proyecto]
+            .col-lg-8
+              p.color-p-intro.p-4 #[b Metodologías secuenciales tradicionales]
                 ul.lista-ul--color.mt-4
                   li 
                     i.lista-ul__vineta
@@ -200,7 +208,7 @@
               img.img-t.img-a.mt-5(src='@/assets/curso/temas/img29.svg', alt='')
 
           .row.justify-content-center.align-items-center.my-5(titulo="Agile")
-            .col-8
+            .col-lg-8
               p.color-p-intro.p-4 #[b Metodologías Agile]
                 ul.lista-ul--color.mt-4
                   li 
@@ -223,7 +231,7 @@
 
 
           .row.justify-content-center.align-items-center.my-5(titulo="Cambio")
-            .col-8
+            .col-lg-8
               p.color-p-intro.p-4 #[b Metodologías de gestión del cambio]
                 ul.lista-ul--color.mt-4
                   li 
@@ -237,7 +245,7 @@
 
 
           .row.justify-content-center.align-items-center.my-5(titulo="Proceso")
-            .col-8
+            .col-lg-8
               p.color-p-intro.p-4 #[b Metodologías basadas en el proceso]
                 ul.lista-ul--color.mt-4
                   li 
@@ -257,7 +265,7 @@
 
 
           .row.justify-content-center.align-items-center.my-5(titulo="Metodologías")
-            .col-8
+            .col-lg-8
               p.color-p-intro.p-4 #[b Otras metodologías]
                 ul.lista-ul--color.mt-4
                   li 
@@ -274,7 +282,7 @@
               img.img-t.img-a.mt-5(src='@/assets/curso/temas/img33.svg', alt='')
 
           .row.justify-content-center.align-items-center.my-5(titulo="PMBOK")
-            .col-8
+            .col-lg-8
               p.color-p-intro.p-4 #[b El método PMBOK: con cinco etapas que son]
                 ul.lista-ul--color.mt-4
                   li 
@@ -293,7 +301,13 @@
                     i.lista-ul__vineta
                     | Cierre
               
-              img.img-t.img-a.mt-5(src='@/assets/curso/temas/img33.svg', alt='')              
+              img.img-t.img-a.mt-5(src='@/assets/curso/temas/img34.svg', alt='') 
+
+      .row.justify-content-center.align-items-center.mt-5
+        .col-lg-10
+          p Cabe resaltar que, dependiendo de la envergadura del proyecto, estos tipos de metodologías pueden usarse de manera combinada o aleatoria, en función del rigor que requiera cada una de las fases. Por ejemplo, para la fase de identificación se puede utilizar la metodología del árbol de problemas, y definir la ejecución del proyecto con un enfoque de gestión Kanban. En todo caso, cuando se trata de proyectos a pequeña escala, los requisitos casi siempre vendrán dados por la convocatoria de ayudas a la financiación o los concursos a los que el aspirante se presente.
+          p Para profundizar y conocer en detalle, en qué consisten estas metodologías, lo invitamos a ver en el material complementario Metodologías de gestión de proyectos.
+
               
 
 </template>

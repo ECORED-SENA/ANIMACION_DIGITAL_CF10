@@ -29,16 +29,16 @@
           .col-3.p-0
             img.img-t.img-a(data-aos="zoom-in")(src='@/assets/curso/temas/img36.svg', alt='')
 
-        p(data-aos="fade-down").mt-5 Para Pedro Fuentes Rueda (2020), en el artículo Claves fundamentales para hacer un buen pitching audiovisual, en el caso de los proyectos audiovisuales, en los últimos tiempos se ha impuesto el PITCHING como metodología para presentar los proyectos ante posibles financiadores. PITCHING quiere decir lanzar y, en proyectos audiovisuales se refiere a la venta de series, de largometrajes, de documentales, o de programas de televisión.
+        p(data-aos="fade-down").mt-5 Para Pedro Fuentes Rueda (2020), en el artículo Claves fundamentales para hacer un buen #[i pitching] audiovisual, en el caso de los proyectos audiovisuales, en los últimos tiempos se ha impuesto el #[i pitching] como metodología para presentar los proyectos ante posibles financiadores. #[i pitching] quiere decir lanzar y, en proyectos audiovisuales se refiere a la venta de series, de largometrajes, de documentales, o de programas de televisión.
      
     .row.justify-content-center.align-items-center.mt-5
       .col-lg-8
         .bloque-texto-c.color-primario.p-4
           i.fas.fa-quote-right
-          h5.mb-2 Un pitching puede darse en una reunión individual, pero el formato más habitual consiste en una presentación pública ante posibles inversores, productores y cadenas, en una presentación que dura alrededor de diez minutos y que se puede apoyar en un Power Point. Tras esto, llega un turno de preguntas por parte del público asistente. 
+          h5.mb-2 Un <em>pitching</em> puede darse en una reunión individual, pero el formato más habitual consiste en una presentación pública ante posibles inversores, productores y cadenas, en una presentación que dura alrededor de diez minutos y que se puede apoyar en un Power Point. Tras esto, llega un turno de preguntas por parte del público asistente. 
           span - Pedro Fuentes Rueda, 2020.
 
-        p.mt-5 Para profundizar sobre el Pitching audiovisual, se invita a ver el video #[b Pitching, cómo vender nuestro proyecto], el cual se encuentra en el material complementario. 
+        p.mt-5 Para profundizar sobre el #[i pitching] audiovisual, se invita a ver el video #[b #[i pitching], cómo vender nuestro proyecto], el cual se encuentra en el material complementario. 
 
         .row.justify-content-evenly.align-items-center.mt-5
           .col-lg-5(data-aos="fade-down")

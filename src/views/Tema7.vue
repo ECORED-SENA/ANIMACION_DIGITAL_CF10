@@ -77,12 +77,12 @@
             .row.justify-content-center.align-items-center(numero="2" titulo="Costos indirectos")
               .col-lg-11
                 img.img-t.img-a.mt-3(src='@/assets/curso/temas/img62.jpg', alt='')
-                p.text-small.mt-5 Son los servicios complementarios que se originan como resultado de la realización del proyecto, como por ejemplo el alquiler de hardware o software, infraestructura física como workstations, servidores, nodos de render, sistema de redes, etc.
+                p.text-small.mt-5 Son los servicios complementarios que se originan como resultado de la realización del proyecto, como por ejemplo el alquiler de hardware o #[i software], infraestructura física como #[i workstations], servidores, nodos de #[i render], sistema de redes, etc.
    
             .row.justify-content-center.align-items-center(numero="3" titulo="Costos de capital")
               .col-lg-11
                 img.img-t.img-a.mt-3(src='@/assets/curso/temas/img63.jpg', alt='')
-                p.text-small.mt-4 Son los que se producen en las inversiones realizadas, por la adquisición, acondicionamiento, mantenimiento o financiamiento de un equipo técnico, instrumentos e inmuebles necesarios para el objetivo principal del proyecto. El valor se asigna de acuerdo al valor del bien en el mercado en el caso de tener que comprarlo. Ejemplo: compra de hardware y software o acondicionamiento del mismo, compra de equipos de sonido, compra o acondicionamiento de instrumentos, licencia de Windows.
+                p.text-small.mt-4 Son los que se producen en las inversiones realizadas, por la adquisición, acondicionamiento, mantenimiento o financiamiento de un equipo técnico, instrumentos e inmuebles necesarios para el objetivo principal del proyecto. El valor se asigna de acuerdo al valor del bien en el mercado en el caso de tener que comprarlo. Ejemplo: compra de hardware y #[i software] o acondicionamiento del mismo, compra de equipos de sonido, compra o acondicionamiento de instrumentos, licencia de Windows.
 
             .row.justify-content-center.align-items-center(numero="4" titulo="Costos fijos")
               .col-lg-11
@@ -92,7 +92,7 @@
             .row.justify-content-center.align-items-center(numero="5" titulo="Costos variables")
               .col-lg-11
                 img.img-t.img-a.mt-3(src='@/assets/curso/temas/img65.jpg', alt='')
-                p.text-small.mt-5 Dependen de las ejecuciones del proyecto y cambian de acuerdo con su magnitud y duración, como por ejemplo el número de escenas que se grabarán en una locación, un programa de animación, un plugin para usar en Maya, o un servicio en la nube para tener backups de proyectos (Dropbox o algo similar). Todo lo relacionado con las relaciones públicas y el marketing: gastos de publicidad, tarjetas de presentación, impresión de playeras, impresión de portafolios, visitas a potenciales clientes, etc.
+                p.text-small.mt-5 Dependen de las ejecuciones del proyecto y cambian de acuerdo con su magnitud y duración, como por ejemplo el número de escenas que se grabarán en una locación, un programa de animación, un #[i plugin] para usar en Maya, o un servicio en la nube para tener #[i backups] de proyectos (Dropbox o algo similar). Todo lo relacionado con las relaciones públicas y el marketing: gastos de publicidad, tarjetas de presentación, impresión de playeras, impresión de portafolios, visitas a potenciales clientes, etc.
                                  
     ModalA(:abrir-modal.sync="modal2")
       .row.justify-content-center.align-items-center
@@ -112,7 +112,7 @@
           p El tipo de presupuesto más usado en la formulación de proyectos es el llamado presupuesto por rubro o tipo de gasto. En la presentación de los proyectos se deben desagregar todos los gastos que requiere la ejecución de cada actividad. Esta información debe ir acompañada del cronograma financiero en donde se debe discriminar en términos monetarios, cuánto cuesta. 
           
       .row.justify-content-center.align-items-center.mt-5
-        .col-8
+        .col-lg-8
           p.bg-color-p-1.p-3.text-center Por regla general, los proyectos de animación incluyen este tipo de costos, ver tabla 2:
           .titulo-sexto.color-acento-contenido.mt-5
             h5 Tabla 2. 
@@ -159,9 +159,12 @@
                 tr
                   <td colspan="2"> Animación de personajes</td>
                   td                     
+                tr
+                  <td colspan="2"> Modelado final</td>
+                  td  
                 tr.color-table-yellow
-                  <td colspan="2"> <b>Modelado final</b></td>
-                  td       
+                  <td colspan="2"> <b>Total animación y modelado</b></td>
+                  td                        
                 tr
                   td.bord-right.color-tr-1.p-tema5-color-red <b> Iluminación</b>
                   td.bord-right.color-tr-1.p-tema5-color-red <b> Responsable</b>

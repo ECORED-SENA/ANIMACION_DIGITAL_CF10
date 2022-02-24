@@ -59,7 +59,7 @@
       .row.justify-content-center.align-items-center.mt-5      
         .col-lg-10
           p.p-tema5-color-red.text-center #[b Fondos privados de inversión]
-          p Están muy enfocados en las startups del sector creativo y entre sus ventajas está que no sólo aportan capital financiero sino también recursos no monetarios como contactos e infraestructura empresarial. 
+          p Están muy enfocados en las #[i startups] del sector creativo y entre sus ventajas está que no sólo aportan capital financiero sino también recursos no monetarios como contactos e infraestructura empresarial. 
 
 
           img.img-t.img-a.mt-4(data-aos="zoom-in")(src='@/assets/curso/temas/img43.jpg', alt='')      
@@ -81,7 +81,7 @@
       .row.justify-content-center.align-items-center.mt-5      
         .col-lg-10
           p.p-tema5-color-red.text-center #[b Aceleradoras e Incubadoras de Empresas]
-          p Son organizaciones que buscan startups con potencial para salir al mercado a través de la ayuda de consultores que apoyan los proyectos hasta estar listos. Las aceleradoras se dedican a agilizar proyectos que ya tienen algo de tracción. El objetivo final de estos apoyos es obtener beneficios económicos cuando la empresa esté lista para surgir.
+          p Son organizaciones que buscan #[i startups] con potencial para salir al mercado a través de la ayuda de consultores que apoyan los proyectos hasta estar listos. Las aceleradoras se dedican a agilizar proyectos que ya tienen algo de tracción. El objetivo final de estos apoyos es obtener beneficios económicos cuando la empresa esté lista para surgir.
 
           img.img-t.img-a.mt-4(data-aos="zoom-in")(src='@/assets/curso/temas/img46.jpg', alt='')
 

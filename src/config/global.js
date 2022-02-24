@@ -216,8 +216,7 @@ export default {
       texto:
         'Avance Jurídico Casa Editorial Ltda. (2021, Oct. 21). Leyes desde 1992 - Vigencia expresa y control de constitucionalidad [LEY_1556_2012]. Senado de la República de Colombia. ',
       tipo: 'Ley',
-      link:
-        'https://www.cancilleria.gov.co/sites/default/files/Fotos2017/ley_1556_de_2012.pdf ',
+      descarga: '/downloads/ley_1556_de_2012.pdf',
     },
     {
       texto: 'Economía Naranja. (2020). Decreto 474 de 2020. ',
@@ -373,7 +372,7 @@ export default {
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'Yenny Patricia Ulloa Villamizar',
         cargo: 'Validación de diseño y contenido',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',

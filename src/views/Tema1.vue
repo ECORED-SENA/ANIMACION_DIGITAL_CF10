@@ -24,7 +24,7 @@
         .tarjeta-avatar.rounded(data-aos="zoom-in")
           img.avatar-w(src='@/assets/curso/temas/alert.svg' alt='AvatarTop')
           .tarjeta.color-primario.bg-card-alert
-            p.p-4.pt-0.mb-0(data-aos="fade-down") Es importante resaltar que las industrias creativas comprenden los sectores que conjugan creación, producción y comercialización de bienes y servicios basados en contenidos intangibles de carácter cultural, y/o aquellos que generen protección en el marco de los derechos de autor.  
+            p.p-4.mb-0(data-aos="fade-down") Es importante resaltar que las industrias creativas comprenden los sectores que conjugan creación, producción y comercialización de bienes y servicios basados en contenidos intangibles de carácter cultural, y/o aquellos que generen protección en el marco de los derechos de autor.  
 
     .row.justify-content-center.align-items-center.mt-5
       .col-lg-3
@@ -50,7 +50,7 @@ export default {
       {
         ano: '2003',
         texto:
-          'Se crea Ley del Cine 814 con el objetivo de consolidar y recaudar ingresos para la internacionalización del cine nacional por medio de estímulos tributarios en el sector privado. Su intención consistía en dinamizar e impulsar producciones para garantizar un flujo de recursos y de esta forma trabajar junto con la Comisión Fílmica Colombiana en el fomento de las producciones..',
+          'Se crea Ley del Cine 814 con el objetivo de consolidar y recaudar ingresos para la internacionalización del cine nacional por medio de estímulos tributarios en el sector privado. Su intención consistía en dinamizar e impulsar producciones para garantizar un flujo de recursos y de esta forma trabajar junto con la Comisión Fílmica Colombiana en el fomento de las producciones.',
       },
       {
         ano: '2012',
@@ -65,7 +65,7 @@ export default {
       {
         ano: '2020',
         texto:
-          'través del Decreto 474 la ley 1556 se extiende por 10 años más y se amplían los beneficios de esta norma a otros géneros audiovisuales como series, videos musicales, proyectos de animación y videojuegos, realización audiovisual publicitaria y series de contenidos cortos para web.<br> Igualmente se ofrece el Certificado de Inversión Audiovisual - CINA, un incentivo tributario que busca apalancar proyectos de inversión de productores extranjeros y que pretende posicionar a Colombia como el nuevo hub de la industria audiovisual en América Latina. ',
+          'través del Decreto 474 la ley 1556 se extiende por 10 años más y se amplían los beneficios de esta norma a otros géneros audiovisuales como series, videos musicales, proyectos de animación y videojuegos, realización audiovisual publicitaria y series de contenidos cortos para web.<br><br> Igualmente se ofrece el Certificado de Inversión Audiovisual - CINA, un incentivo tributario que busca apalancar proyectos de inversión de productores extranjeros y que pretende posicionar a Colombia como el nuevo hub de la industria audiovisual en América Latina. ',
       },
     ],
   }),

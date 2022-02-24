@@ -12,7 +12,7 @@
         .bloque-texto-d.color-primario.p-4
           .bloque-texto-d__texto.mb-2
             i.fas.fa-quote-left
-            p.text-regular Esta fase comprende los procesos necesarios para realizar el seguimiento, revisión y monitorización del progreso de proyecto. Se concibe como el medio para detectar desviaciones con la máxima premura posible, y así identificar las áreas en las que puede ser requerido un cambio en la planificación y un plan de contingencias. La etapa de seguimiento y control se encuentra naturalmente asociada a la de ejecución, de la que no puede concebirse de forma separada por su importancia y valor crítico.aculis euismod. Sed fringilla vel nisl quis aliquam.
+            p.text-regular Esta fase comprende los procesos necesarios para realizar el seguimiento, revisión y monitorización del progreso de proyecto. Se concibe como el medio para detectar desviaciones con la máxima premura posible, y así identificar las áreas en las que puede ser requerido un cambio en la planificación y un plan de contingencias. La etapa de seguimiento y control se encuentra naturalmente asociada a la de ejecución, de la que no puede concebirse de forma separada por su importancia y valor crítico. 
             
           .bloque-texto-d__autor 
             .h5.mb-0.mright - Guía OBS Online, Business School, 2019.
@@ -51,7 +51,7 @@
          
     .row.justify-content-center.align-items-center.mt-5   
       .col-lg-10
-        p(data-aos="fade-down") Los documentos relevantes durante esta etapa son el Checklist y revisiones de cada fase como el plan de gestión del riesgo, la comunicación de desviaciones detectadas, comunicación de acciones correctoras o modificaciones a aplicar y su plazo. 
+        p(data-aos="fade-down") Los documentos relevantes durante esta etapa son el #[i Checklist] y revisiones de cada fase como el plan de gestión del riesgo, la comunicación de desviaciones detectadas, comunicación de acciones correctoras o modificaciones a aplicar y su plazo. 
 
     .row.justify-content-evenly.align-items-center
       .col-lg-10 
@@ -60,7 +60,7 @@
             .divpadre(@click="modal1 = true")
               .row.justify-content-center.align-items-stretch
                 .col-9.div01.p-3
-                  .p.mb-0 Seguimiento o monitoreo de proyectos
+                  .p.mb-0 Métodos para el seguimiento de proyectos
                 .col-3.div02.p-3
                   img.img-t.img-a(src='@/assets/curso/temas/lupa.svg', alt='')
              
@@ -68,7 +68,7 @@
             .divpadre(@click="modal2 = true")
               .row.justify-content-center.align-items-stretch
                 .col-9.div01.p-3
-                  .p.mb-0 Métodos para el seguimiento de proyectos
+                  .p.mb-0 Definición y establecimiento de los indicadores
                 .col-3.div02.p-3
                   img.img-t.img-a(src='@/assets/curso/temas/lupa.svg', alt='')
 
@@ -77,7 +77,8 @@
         .col-10
           img.img-t.img-a(src='@/assets/curso/temas/img50.jpg', alt='')
 
-          p.mt-5 Las metodologías más usadas para el seguimiento de proyectos son el Diagrama de Gantt, Pert, CPM o el Método de la Cadena Crítica. Sin embargo, muchas aplicaciones para la gestión de proyectos están basadas en estas metodologías o permiten que se adapten, por lo que la contratación de un servicio de pago o gratuito, actualmente facilita el seguimiento de los procesos, incluso en equipos que trabajan exclusivamente de manera virtual. Dar una opinión sobre cuál de estas herramientas es mejor, es complejo y cada usuario o equipo debe encontrar la que mejor se adapte a sus necesidades.
+          p.mt-5 Las metodologías más usadas para el seguimiento de proyectos son el Diagrama de Gantt, Pert, CPM o el Método de la Cadena Crítica. 
+          p Sin embargo, muchas aplicaciones para la gestión de proyectos están basadas en estas metodologías o permiten que se adapten, por lo que la contratación de un servicio de pago o gratuito, actualmente facilita el seguimiento de los procesos, incluso en equipos que trabajan exclusivamente de manera virtual. Dar una opinión sobre cuál de estas herramientas es mejor, es complejo y cada usuario o equipo debe encontrar la que mejor se adapte a sus necesidades.
 
           p.mt-5.text-center.p-tema5-red.p-3 Para ampliar la información sobre esta temática, se invita a visitar en el material complementario mediante los siguientes recursos: 
 
@@ -112,25 +113,25 @@
               .tarjeta-avatar
                 img.img-t.img-a(src='@/assets/curso/temas/img52.svg' alt='AvatarTop')
                 .tarjeta.color-primario
-                  .p-4.pt-1
+                  .p-4.pt-5
                     h5.text-center Impacto
-                    p.text-center de los productos y/o servicios, tales como enfermedades prevenidas, impuestos recolectados, niveles de seguridad laboral alcanzados. 
+                    p.text-center De los productos y/o servicios, tales como enfermedades prevenidas, impuestos recolectados, niveles de seguridad laboral alcanzados. 
 
             .col-md-6.col-lg.mb-5.mb-lg-0
               .tarjeta-avatar
                 img.img-t.img-a(src='@/assets/curso/temas/img53.svg' alt='AvatarTop')
                 .tarjeta.color-primario
-                  .p-4.pt-1
+                  .p-4.pt-5
                     h5.text-center Productividad
-                    p.text-center como casos atendidos por profesionales, solicitudes procesadas por persona, llamadas de emergencia atendidas. 
+                    p.text-center Como casos atendidos por profesionales, solicitudes procesadas por persona, llamadas de emergencia atendidas. 
 
             .col-md-6.col-lg.mb-5.mb-lg-0
               .tarjeta-avatar
                 img.img-t.img-a(src='@/assets/curso/temas/img54.svg' alt='AvatarTop')
                 .tarjeta.color-primario
-                  .p-4.pt-1
+                  .p-4.pt-5
                     h5.text-center Satisfacción del usuario
-                    p.text-center como el número de quejas recibidas, resultados de las encuestas, utilización de procesos participativos, visitas a los clientes.         
+                    p.text-center Como el número de quejas recibidas, resultados de las encuestas, utilización de procesos participativos, visitas a los clientes.         
 
             
 </template>
