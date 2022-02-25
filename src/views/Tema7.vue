@@ -92,7 +92,7 @@
             .row.justify-content-center.align-items-center(numero="5" titulo="Costos variables")
               .col-lg-11
                 img.img-t.img-a.mt-3(src='@/assets/curso/temas/img65.jpg', alt='')
-                p.text-small.mt-5 Dependen de las ejecuciones del proyecto y cambian de acuerdo con su magnitud y duración, como por ejemplo el número de escenas que se grabarán en una locación, un programa de animación, un #[i plugin] para usar en Maya, o un servicio en la nube para tener #[i backups] de proyectos (Dropbox o algo similar). Todo lo relacionado con las relaciones públicas y el #[b marketing]: gastos de publicidad, tarjetas de presentación, impresión de playeras, impresión de portafolios, visitas a potenciales clientes, etc.
+                p.text-small.mt-5 Dependen de las ejecuciones del proyecto y cambian de acuerdo con su magnitud y duración, como por ejemplo el número de escenas que se grabarán en una locación, un programa de animación, un #[i plugin] para usar en Maya, o un servicio en la nube para tener #[i backups] de proyectos (Dropbox o algo similar). Todo lo relacionado con las relaciones públicas y el #[i marketing]: gastos de publicidad, tarjetas de presentación, impresión de playeras, impresión de portafolios, visitas a potenciales clientes, etc.
                                  
     ModalA(:abrir-modal.sync="modal2")
       .row.justify-content-center.align-items-center
