@@ -148,9 +148,7 @@ export default {
     },
     {
       referencia:
-        'Rosello, D. (2007). Diseños y evaluación de proyectos culturales. De la idea a la acción. ',
-      link:
-        'https://proyectosculturalesundav.files.wordpress.com/2015/03/159034552-rosello-cerezuela-david-diseno-y-evaluacion-de-proyectos-culturales.pdf ',
+        'Roselló, D. (2018). Diseño y evaluación de proyectos culturales. Ariel.',
     },
     {
       referencia:
