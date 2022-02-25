@@ -77,12 +77,12 @@
             .row.justify-content-center.align-items-center(numero="2" titulo="Costos indirectos")
               .col-lg-11
                 img.img-t.img-a.mt-3(src='@/assets/curso/temas/img62.jpg', alt='')
-                p.text-small.mt-5 Son los servicios complementarios que se originan como resultado de la realización del proyecto, como por ejemplo el alquiler de hardware o #[i software], infraestructura física como #[i workstations], servidores, nodos de #[i render], sistema de redes, etc.
+                p.text-small.mt-5 Son los servicios complementarios que se originan como resultado de la realización del proyecto, como por ejemplo el alquiler de hardware o software, infraestructura física como #[i workstations], servidores, nodos de #[i render], sistema de redes, etc.
    
             .row.justify-content-center.align-items-center(numero="3" titulo="Costos de capital")
               .col-lg-11
                 img.img-t.img-a.mt-3(src='@/assets/curso/temas/img63.jpg', alt='')
-                p.text-small.mt-4 Son los que se producen en las inversiones realizadas, por la adquisición, acondicionamiento, mantenimiento o financiamiento de un equipo técnico, instrumentos e inmuebles necesarios para el objetivo principal del proyecto. El valor se asigna de acuerdo al valor del bien en el mercado en el caso de tener que comprarlo. Ejemplo: compra de hardware y #[i software] o acondicionamiento del mismo, compra de equipos de sonido, compra o acondicionamiento de instrumentos, licencia de Windows.
+                p.text-small.mt-4 Son los que se producen en las inversiones realizadas, por la adquisición, acondicionamiento, mantenimiento o financiamiento de un equipo técnico, instrumentos e inmuebles necesarios para el objetivo principal del proyecto. El valor se asigna de acuerdo al valor del bien en el mercado en el caso de tener que comprarlo. Ejemplo: compra de hardware y software o acondicionamiento del mismo, compra de equipos de sonido, compra o acondicionamiento de instrumentos, licencia de Windows.
 
             .row.justify-content-center.align-items-center(numero="4" titulo="Costos fijos")
               .col-lg-11
@@ -92,7 +92,7 @@
             .row.justify-content-center.align-items-center(numero="5" titulo="Costos variables")
               .col-lg-11
                 img.img-t.img-a.mt-3(src='@/assets/curso/temas/img65.jpg', alt='')
-                p.text-small.mt-5 Dependen de las ejecuciones del proyecto y cambian de acuerdo con su magnitud y duración, como por ejemplo el número de escenas que se grabarán en una locación, un programa de animación, un #[i plugin] para usar en Maya, o un servicio en la nube para tener #[i backups] de proyectos (Dropbox o algo similar). Todo lo relacionado con las relaciones públicas y el marketing: gastos de publicidad, tarjetas de presentación, impresión de playeras, impresión de portafolios, visitas a potenciales clientes, etc.
+                p.text-small.mt-5 Dependen de las ejecuciones del proyecto y cambian de acuerdo con su magnitud y duración, como por ejemplo el número de escenas que se grabarán en una locación, un programa de animación, un #[i plugin] para usar en Maya, o un servicio en la nube para tener #[i backups] de proyectos (Dropbox o algo similar). Todo lo relacionado con las relaciones públicas y el #[b marketing]: gastos de publicidad, tarjetas de presentación, impresión de playeras, impresión de portafolios, visitas a potenciales clientes, etc.
                                  
     ModalA(:abrir-modal.sync="modal2")
       .row.justify-content-center.align-items-center
