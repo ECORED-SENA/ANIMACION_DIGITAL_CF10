@@ -10,7 +10,7 @@
     .bg-img-1.pt-3
       .row.justify-content-end.align-items-center.mt-5      
         .col-lg-5
-          p(data-aos="fade-down") Al igual que para otras tipologías de proyectos, las fuentes de financiación para los emprendedores de las industrias culturales y creativas no abundan, pero ciertamente, año a año, se amplía la lista de opciones porque los gobiernos e instituciones se hacen conscientes de su relevante papel en la construcción de empleo y su contribución al mejoramiento de la economía. Muchas de estas organizaciones también ofrecen acompañamiento en el proceso de crear empresas.
+          p(data-aos="fade-down") Al igual que para otras tipologías de proyectos, las fuentes de financiación para los emprendedores de las industrias culturales y creativas no abundan, pero ciertamente, año a año, se amplía la lista de opciones porque los Gobiernos e instituciones se hacen conscientes de su relevante papel en la construcción de empleo y su contribución al mejoramiento de la economía. Muchas de estas organizaciones también ofrecen acompañamiento en el proceso de crear empresas.
 
         .col-lg-6
           img.img-t.img-a(data-aos="zoom-in")(src='@/assets/curso/temas/img37.svg', alt='')
@@ -95,7 +95,7 @@
     img.img-t.img-a.pt-5.mt-4(data-aos="zoom-in")(src='@/assets/curso/temas/img48.jpg', alt='')
     .row.justify-content-center.align-items-center    
       .col-lg-8
-        p(data-aos="fade-down").mt-5 Se debe resaltar que desde 2018 el Ministerio de comercio, Industria y Turismo a través de los programas de apoyo para las industrias creativas INNpulso Naranja y en asocio la Bolsa de Valores de Colombia (BVC) desarrollaron una plataforma de crowdfunding para que las medianas y pequeñas empresas de las industrias creativas y culturales puedan acceder a recursos de financiamiento colectivo y a conexiones estratégicas con inversionistas.
+        p(data-aos="fade-down").mt-5 Se debe resaltar que desde 2018 el Ministerio de Comercio, Industria y Turismo a través de los programas de apoyo para las industrias creativas INNpulso Naranja y en asocio la Bolsa de Valores de Colombia (BVC) desarrollaron una plataforma de crowdfunding para que las medianas y pequeñas empresas de las industrias creativas y culturales puedan acceder a recursos de financiamiento colectivo y a conexiones estratégicas con inversionistas.
 
 
 

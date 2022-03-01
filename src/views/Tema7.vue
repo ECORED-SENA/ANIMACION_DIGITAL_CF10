@@ -87,7 +87,7 @@
             .row.justify-content-center.align-items-center(numero="4" titulo="Costos fijos")
               .col-lg-11
                 img.img-t.img-a.mt-3(src='@/assets/curso/temas/img64.jpg', alt='')
-                p.text-small.mt-5 Son aquellos que no sufren variación cualquiera que sea la magnitud o naturaleza del proyecto, como el pago del arrendamiento de las instalaciones donde funciona el proyecto, el personal administrativo o de nómina si se ha definido una contratación mensual para uno o varios artistas. El pago del Internet, gastos financieros (contador, bancos, permisos gubernamentales) y todo lo relacionado con finanzas o registros del negocio o persona. 
+                p.text-small.mt-5 Son aquellos que no sufren variación cualquiera que sea la magnitud o naturaleza del proyecto, como el pago del arrendamiento de las instalaciones donde funciona el proyecto, el personal administrativo o de nómina si se ha definido una contratación mensual para uno o varios artistas. El pago del internet, gastos financieros (contador, bancos, permisos gubernamentales) y todo lo relacionado con finanzas o registros del negocio o persona. 
 
             .row.justify-content-center.align-items-center(numero="5" titulo="Costos variables")
               .col-lg-11

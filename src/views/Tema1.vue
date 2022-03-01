@@ -55,7 +55,7 @@ export default {
       {
         ano: '2012',
         texto:
-          'Se crea la Ley 1556 que propone una contraprestación del 40% del valor de los gastos realizados en el país por concepto de servicios cinematográficos y del 20% del valor de los gastos en hotelería, alimentación y transporte a las empresas que celebren contratos con Filmación Colombia y realicen las producciones cinematográficas total o parcialmente en el territorio colombiano.',
+          'Se crea la Ley 1556 que propone una contraprestación del 40 % del valor de los gastos realizados en el país por concepto de servicios cinematográficos y del 20 % del valor de los gastos en hotelería, alimentación y transporte a las empresas que celebren contratos con Filmación Colombia y realicen las producciones cinematográficas total o parcialmente en el territorio colombiano.',
       },
       {
         ano: '2017',
@@ -65,7 +65,7 @@ export default {
       {
         ano: '2020',
         texto:
-          'través del Decreto 474 la ley 1556 se extiende por 10 años más y se amplían los beneficios de esta norma a otros géneros audiovisuales como series, videos musicales, proyectos de animación y videojuegos, realización audiovisual publicitaria y series de contenidos cortos para web.<br><br> Igualmente se ofrece el Certificado de Inversión Audiovisual - CINA, un incentivo tributario que busca apalancar proyectos de inversión de productores extranjeros y que pretende posicionar a Colombia como el nuevo hub de la industria audiovisual en América Latina. ',
+          'Através del Decreto 474 la ley 1556 se extiende por 10 años más y se amplían los beneficios de esta norma a otros géneros audiovisuales como series, videos musicales, proyectos de animación y videojuegos, realización audiovisual publicitaria y series de contenidos cortos para web.<br><br> Igualmente se ofrece el Certificado de Inversión Audiovisual - CINA, un incentivo tributario que busca apalancar proyectos de inversión de productores extranjeros y que pretende posicionar a Colombia como el nuevo hub de la industria audiovisual en América Latina. ',
       },
     ],
   }),
