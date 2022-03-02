@@ -181,7 +181,7 @@
                 
       figure.mt-5
         .video
-          iframe(width="560" height="315" src="https://www.youtube.com/embed/ojuhHUpBehA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+          iframe(width="560" height="315" src="https://www.youtube.com/embed/JC6-d44r7SM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
       .row.justify-content-center.align-items-center.mt-5
         .col-lg-10
