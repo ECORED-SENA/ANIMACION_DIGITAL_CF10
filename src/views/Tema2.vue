@@ -81,7 +81,7 @@
           .tabla-a
             table
               caption Nota. Elaboración propia a partir del Curso de formulación de proyectos culturales. Secretaría de cultura, recreación y deporte. Alcaldía Mayor de Bogotá (2021).
-                a(href="https://www.corteconstitucional.gov.co/relatoria/2021/C-145-21.htm" target="_blank") https://formacion.scrd.gov.co 
+                a(href="https://formacion.scrd.gov.co" target="_blank") https://formacion.scrd.gov.co 
                   i.fas.fa-external-link-alt
 
               tbody
